@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="Learn.Framework.Listeners" />
+	</listeners>
+	<test name="Java interview testcase">
+		<classes>
+			<class name="Learn.Framework.Articlepage" />
+		</classes>
+	</test>
+	<test name="Registration testcase">
+		<classes>
+			<class name="Learn.Framework.Aboutpage" />
+		</classes>
+	</test>
+	<test name="Login testcase">
+		<classes>
+			<class name="Learn.Framework.Homepage" />
+		</classes>
+	</test>  
+	<test name="Featured course">
+		<classes>
+			<class name="Learn.Framework.FeaturedCourse" />
+		</classes>
+		</test> <!-- Test -->
+</suite> <!-- Suite -->
