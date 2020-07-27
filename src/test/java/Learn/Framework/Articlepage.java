@@ -8,6 +8,8 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import com.sun.tools.sjavac.Log;
+
 import objectrepository.Articleobject;
 import objectrepository.Landingpage;
 import resource.Browser;
@@ -29,7 +31,7 @@ public class Articlepage extends Browser{
 		Articleobject ap=new Articleobject(driver);
 		ap.readmore().click();
 		log.info("Java interview question is opened");
-		
+		Log.info("Test case passed");
 	}
 	
 	@AfterTest
